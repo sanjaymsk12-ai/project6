@@ -1,20 +1,20 @@
 let arr = [{
-    image:'./sanjay.jpg',
+    image:'sanjay.jpg',
     name : 'Sanjay',
     age: '27',
     maried : 'False',},
 
-{   image:'./Rinku.jpg',
+{   image:'rinku.jpg',
     name : 'Rinku',
     age: '22',
     maried : 'False',},
 
-{   image:'./arshil.jpg',
+{   image:'arshil.jpg',
     name : 'Arshil',
     age: '26',
     maried : 'False',},
 
-{   image:'./ramji.jpg',
+{   image:'ramji.jpg',
     name : 'Ram ji',
     age: '28',
     maried : 'False',}]
@@ -31,5 +31,4 @@ arr.forEach(function(elem,idx){
 })
 
 let body = document.querySelector('body')
-
 body.innerHTML = sum
