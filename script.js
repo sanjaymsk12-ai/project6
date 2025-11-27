@@ -32,3 +32,4 @@ arr.forEach(function(elem,idx){
 
 let body = document.querySelector('body')
 body.innerHTML = sum
+
